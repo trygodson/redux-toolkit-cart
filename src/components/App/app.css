@@ -1,0 +1,7 @@
+:root{
+  --primary: rgb(99, 75, 122);
+}
+
+.some{
+  background-color: var(--primary);
+}

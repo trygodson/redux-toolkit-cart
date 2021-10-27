@@ -1,0 +1,28 @@
+nav{
+  .nav-home{
+    text-decoration: none;
+    color: white;
+  }
+  height: 75px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .nav-cart-link{
+    text-decoration: none;
+    color: white;
+    div{
+      display: flex;
+      span{
+        margin-left: 5px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #fff;
+        color: red;
+      }
+    }
+  }
+}

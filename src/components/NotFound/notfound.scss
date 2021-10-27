@@ -1,0 +1,23 @@
+.notfound-wrapper{
+  width: 90vw;
+  height: calc(100vh - 75px);
+  background-color: azure;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .inner{
+    h3{
+      font-size: 50px;
+      font-weight: bolder;
+
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+
+}

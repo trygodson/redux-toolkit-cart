@@ -1,0 +1,45 @@
+.home-container{
+  margin-top: 50px;
+  h2{
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .products{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    .product{
+
+      width: 250px;
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      box-shadow: -3px -3px 20px rgba($color: #000000, $alpha: 0.3), 2px 2px 5px rgba($color: #5fb42d, $alpha: 0.3), ;
+      .inner-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        button{
+          width: 100px;
+          height: 40px;
+          border-radius: 5px;
+          margin-top: 10px;
+          border: none;
+          outline: none;
+          background-color: rgb(9, 255, 255);
+          transition: all 1000ms;
+          &:hover{
+            background-color: rgb(18, 165, 165);
+          }
+        }
+      }
+    }
+
+  }
+}
